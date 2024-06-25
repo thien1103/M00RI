@@ -1,0 +1,17 @@
+[
+    {
+        "display_name": "Customers",
+        "route": "/customers",
+        "icon": "bx bx-user-pin"
+    },
+    {
+        "display_name": "Curriculums",
+        "route": "/curriculums",
+        "icon": "bx bxs-book"
+    },
+    {
+        "display_name": "Vocabulary",
+        "route": "/datas",
+        "icon": "bx bxs-data"
+    }
+]

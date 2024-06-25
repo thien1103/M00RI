@@ -1,0 +1,1 @@
+export const LOAD_COMPONENT = "LOAD_COMPONENT";
