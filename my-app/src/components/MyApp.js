@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 
 // Config base
-import reportWebVitals from "../reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "antd/dist/antd.css";
 
@@ -17,8 +16,8 @@ import "../assets/css/theme.css";
 import "../assets/css/index.css";
 
 // Config route
-import AdminTemplate from "../templates/Admin/AdminTemplate";
-import routes from "../templates/routes";
+import AdminTemplate from "../templatee/Admin/AdminTemplate";
+import routes from "../templatee/routes";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import { basename, history } from "../util/setting";
@@ -55,11 +54,4 @@ function MyApp() {
     );
 }
 export default MyApp;
-if (document.getElementById("root")) {
-    ReactDOM.render(
-        <Provider store={store}>
-            <MyApp />
-        </Provider>,
-        document.getElementById("root")
-    );
-}
+
