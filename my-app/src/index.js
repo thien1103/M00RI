@@ -16,7 +16,6 @@ import { store } from "./redux/configStore";
     );
   }
 
-console.log("App is running");
 // Measure performance
 reportWebVitals();
 
