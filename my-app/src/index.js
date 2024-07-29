@@ -7,12 +7,14 @@ import { Provider } from "react-redux";
 import { store } from "./redux/configStore";
 
 
-  ReactDOM.render(
+  if (document.getElementById("root")) {
+    ReactDOM.render(
       <Provider store={store}>
-          < MyApp />
+        <MyApp />
       </Provider>,
       document.getElementById("root")
-  );
+    );
+  }
 
 console.log("App is running");
 // Measure performance
